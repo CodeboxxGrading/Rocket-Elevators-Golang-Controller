@@ -44,7 +44,7 @@ func TestScenario1(t *testing.T) {
 		if expectedColumn.elevatorsList[i].currentFloor == expectedFinalPositions[i] {
 			t.Logf("Elevator %v ends up at the correct floor", expectedColumn.elevatorsList[i].ID)
 		} else {
-			t.Errorf("Elevator %v didn't finish at the correct floor, expected %v, got %v", expectedColumn.elevatorsList[i].ID, expectedFinalPositions[i], expectedColumn.elevatorsList[i].currentFloor)
+			t.Errorf("Elevator %v didn't finish at the correct floor, expected %v, got %v", expectedColumn.elevatorsList[i].ID, expectedFinalPositions[i], chosenColumn.elevatorsList[i].currentFloor)
 		}
 	}
 
@@ -89,7 +89,7 @@ func TestScenario2(t *testing.T) {
 		if expectedColumn.elevatorsList[i].currentFloor == expectedFinalPositions[i] {
 			t.Logf("Elevator %v ends up at the correct floor", expectedColumn.elevatorsList[i].ID)
 		} else {
-			t.Errorf("Elevator %v didn't finish at the correct floor, expected %v, got %v", expectedColumn.elevatorsList[i].ID, expectedFinalPositions[i], expectedColumn.elevatorsList[i].currentFloor)
+			t.Errorf("Elevator %v didn't finish at the correct floor, expected %v, got %v", expectedColumn.elevatorsList[i].ID, expectedFinalPositions[i], chosenColumn.elevatorsList[i].currentFloor)
 		}
 	}
 
