@@ -21,14 +21,6 @@ With a fully completed project, you should get an output like:
 
 ![Screenshot from 2021-06-15 15-25-10](https://user-images.githubusercontent.com/28630658/122111573-e6ea7380-cded-11eb-95e3-95e0096a1b3a.png)
 
-You can also get more details about each test by adding the `-v` flag: 
-
-`go test -v` 
-
-which should give something like: 
-
-![Screenshot from 2021-06-15 15-25-51](https://user-images.githubusercontent.com/28630658/122111659-fd90ca80-cded-11eb-991b-d9f6fe1d317b.png)
-
 The test and scenarios files can be left in your final project. The grader will run tests similar to the ones provided.
 
 Of course, make sure to edit this Readme file to describe your own project!
